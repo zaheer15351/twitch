@@ -28,7 +28,7 @@ In this task, it was suppose to complete the following in 4 hours max
 
 In the given timeframe, I managed to complete the following
 
-- Home page that lets a user login with Twitch
+- Home page that lets a user login with Twitch and return back with the oauth token
 - Streamer page that shows an embedded livestream and a chat box from a streamer
 
 ## Scope not covered
