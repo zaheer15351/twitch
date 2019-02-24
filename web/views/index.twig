@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+
+{% block content %}
+    <div class="jumbotron text-center">
+        <div class="container">
+            <a href="/" class="lang-logo">
+                <img src="https://i.dlpng.com/static/png/222062_preview.png">
+            </a>
+            <h1>Login to twitch</h1>
+            <p>By click the button below, you'll be redirected to Twitch website where you can create an account or
+                login and redirect back with access bearer token</p>
+            <a type="button" class="btn btn-lg btn-default twitch-login"
+               href="/login"><span
+                        class="glyphicon glyphicon-user"></span> Login with Twitch</a>
+        </div>
+    </div>
+{% endblock %}

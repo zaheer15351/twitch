@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+
+{% block content %}
+    <div class="jumbotron text-center">
+        <div class="container">
+            <h1>Live stream and chat from tsm_camills</h1>
+            <div class="col-md-8">
+                <iframe
+                        src="https://player.twitch.tv/?channel=tsm_camills"
+                        height="400"
+                        width="100%"
+                        frameborder="true"
+                        scrolling="true"
+                        allowfullscreen="true">
+                </iframe>
+            </div>
+            <div class="col-md-4">
+                <iframe frameborder="0"
+                        scrolling="no"
+                        id="tsm_camills"
+                        src="https://www.twitch.tv/embed/tsm_camills/chat"
+                        height="400" width="100%">
+                </iframe>
+            </div>
+
+        </div>
+    </div>
+{% endblock %}
